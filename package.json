@@ -1,0 +1,9 @@
+{
+  "name": "clocker.js",
+  "version": "0.0.1",
+  "description": "The simple way to add a clock to your site",
+  "main": "clocker.js",
+  "keywords": ["click", "library"],
+  "author": "kenliten",
+  "license": "MIT"
+}
