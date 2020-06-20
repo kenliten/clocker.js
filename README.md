@@ -8,8 +8,8 @@ You can apply styles with #clock or use your own classes;
 <h2>Use</h2>
 
 <ol>
-  <li>Clone the project or <a href='#'>download</a> the library</li>
-  <li>link it with a &lt;script src=&quot;clocker.js&quot;&gt;&lt;&frasl;script&gt; like tag</li>
+  <li>Clone the project or <a href='https://cdn.jsdelivr.net/gh/kenliten/clocker.js/clocker.js'>download</a> the library</li>
+  <li>link it with a script tag <code>&lt;script src=&quot;https://cdn.jsdelivr.net/gh/kenliten/clocker.js/clocker.js&quot;&gt;&lt;&frasl;script&gt;</code></li>
   <li>Use it! with a simple <code lang="js">clocker.init();</code> you'll ready to go.</li>
 </ol>
 
@@ -26,7 +26,7 @@ You can apply styles with #clock or use your own classes;
       &lt;/head&gt;
       &lt;body&gt;
       
-        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/kenliten/clicker.js@0.0.1/clicker.js&quot; &gt;&lt;/script&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/kenliten/clicker.js/clicker.js&quot; &gt;&lt;/script&gt;
         &lt;script&gt;
           <var>clocker</var>.init();
         &lt;/script&gt;
@@ -47,7 +47,7 @@ You can apply styles with #clock or use your own classes;
       &lt;/head&gt;
       &lt;body&gt;
       
-        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/kenliten/clicker.js@0.0.1/clicker.js&quot; &gt;&lt;/script&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/kenliten/clicker.js/clicker.js&quot; &gt;&lt;/script&gt;
         &lt;script&gt;
           <var>clocker</var>.init('clock', '24');
         &lt;/script&gt;
@@ -68,7 +68,7 @@ You can apply styles with #clock or use your own classes;
       &lt;/head&gt;
       &lt;body&gt;
       
-        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/kenliten/clicker.js@0.0.1/clicker.js&quot; &gt;&lt;/script&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/gh/kenliten/clicker.js/clicker.js&quot; &gt;&lt;/script&gt;
         &lt;script&gt;
           <var>clocker</var>.init('clock', '24', true);
         &lt;/script&gt;
