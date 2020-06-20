@@ -9,18 +9,18 @@ You can apply styles with #clock or use your own classes;
 
 <h2>Methods</h2>
 
-clocker.init() -> simple 12 hours format clock
-clocker.init('clock', '24') -> simple 24 hours format clock
-clocker.init('clock', '24' true) -> simple 24 hours + seconds format clock
-clocker.stop() -> stop the clock
-clocker.start() -> start the clock
-clocker.toggle() -> toggle the clock activity
+<p>clocker.init(?element: string)</p>
+<p>clocker.init(?element: string, format: string['12'/'24'])</p>
+<p>clocker.init(?element: string, format: string['12'/'24'], showSeconds: boolean)</p>
+<p>clocker.stop() -> stop the clock</p>
+<p>clocker.start() -> start the clock</p>
+<p>clocker.toggle() -> toggle the clock activity</p>
 
 <h2>Properties</h2>
 
-clocker.status -> stopped or running depending the clock status
-clocker.clock -> DOM element which is used to write on
-clocker.divider -> hour, minutes and seconds string divider
-clocker.format -> string with one of two values, 12 or 24, to format the hour
-clocker.showSeconds -> boolean to choose between show or hide seconds in the clock
-clocker.animation -> holder for the window.requestAnimationFrame caller
+<p>clocker.status -> stopped or running depending the clock status</p>
+<p>clocker.clock -> DOM element which is used to write on</p>
+<p>clocker.divider -> hour, minutes and seconds string divider</p>
+<p>clocker.format -> string with one of two values, 12 or 24, to format the hour</p>
+<p>clocker.showSeconds -> boolean to choose between show or hide seconds in the clock</p>
+<p>clocker.animation -> holder for the window.requestAnimationFrame caller</p>
