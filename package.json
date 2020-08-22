@@ -3,7 +3,16 @@
   "version": "0.0.1",
   "description": "The simple way to add a clock to your site",
   "main": "clocker.js",
-  "keywords": ["click", "library"],
+  "scripts": {
+    "test:require": ""
+  },
+  "keywords": [
+    "clock",
+    "library"
+  ],
   "author": "kenliten",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "less": "^3.12.2"
+  }
 }
