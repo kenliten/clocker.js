@@ -1,8 +1,4 @@
 # clocker.js
-<script src="clocker.js"></script>
-<script>
-var clock = new Clocker();
-</script>
 The simple way to add a clock to your site
 
 This is a simple library to implement a clock in your page simply and quickly.
